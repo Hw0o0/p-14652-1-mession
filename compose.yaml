@@ -58,7 +58,7 @@ services:
 
     depends_on:
       redpanda:
-        condition: service_healthy  # ✅ "실행 순서"가 아니라 "준비 완료"를 보장
+        condition: service_healthy  # ✅ "실행 순서"가 아₩라 "준비 완료"를 보장
 
 volumes:
   redpanda_data:
