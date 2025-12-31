@@ -17,6 +17,7 @@ import org.springframework.test.context.ActiveProfiles;
 class KafkaTest {
     @Autowired
     private MyEventListener listener;
+    @Autowired
     private KafkaTemplate<String, Object> kafkaTemplate;
 
     @Test
